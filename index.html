@@ -6,19 +6,26 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Parciales de todas las materias del CBC - La Cámpora CBC">
+    <meta name="author" content="La Cámpora CBC">
 
-    <title>Clases particulares</title>
+    <title>Parciales CBC - La Cámpora CBC</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+	
 
     <!-- Custom CSS -->
-
+    <link href="css/propio.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:500' rel='stylesheet' type='text/css'>
+	
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css">
 
-	<link href="css/custom.css" rel="stylesheet">
+
+	
+
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,109 +34,212 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+	
+	<!--<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Colapsar Menu</a>-->
 </head>
 
 <body>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Menu</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="/index.html">Inicio</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="/nosotros.html">Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="#">Clases</a>
-                    </li>
-                    <li>
-                        <a href="#">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+    <div id="wrapper">
 
-    <!-- Page Content -->
-    <div class="container">
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="index.html">
+                        <img src="img/logo.png" height="65px" width="200px">
+                    </a>
+                </li>
+                <li>
+                  <a data-scroll href="#inicio">INICIO</a>
+                </li>
+                <li>
+                    <a data-scroll href="#nosotros">QUIENES SOMOS</a>
+                </li>
+                <li>
+                    <a data-scroll href="#parciales">PARCIALES</a>
+                </li>
+                <li>
+                    <a data-scroll href="#colaborar">COMO COLABORAR</a>
+                </li>
+                <li>
+                    <a data-scroll href="#contacto">CONTACTO</a>
+                </li>
 
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h1>Clases particulares</h1>
-                <p class="lead">A domicilio, en Capital Federal.</p>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <span id="inicio"></span>
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/slider1.jpg" alt="Cristina">
+    </div>
+
+    <div class="item">
+      <img src="img/slider2.png" alt="Sumate!">
+    </div>
+
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Siguiente</span>
+  </a>
+</div><hr>
+
+
+                        
+              <div class="panel panel-primary">
+  <div class="panel-heading">
+    <h2 class="titulo panel-title">¡Bienvenido!</h2>
+  </div>
+  <div class="panel-body">
+    <p></p>
+  </div>
+</div>          
+
+                        
+						
+                        
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <span id="nosotros"><h2 class="titulo panel-title">¿Quiénes somos?</h2></span>
+  </div>
+  <div class="panel-body">
+    <p></p>
+  </div>
+</div>
+
+					
+					
+					
+					<div class="panel panel-primary">
+  <div class="panel-heading">
+    <span id="parciales"><h2 class="titulo panel-title">Parciales</h2></span>
+  </div>
+  <div class="panel-body">
+  <form>
+    <div class="form-group">
+	<label class="lead">Elegí la materia: &nbsp;</label><select class="selectpicker" data-live-search="true">
+	<!-- No usar tildes para no comprometer la búsqueda <option data-subtext="asd" para la cátedra. data-tokens="catedra" para mejorar búsqueda. -->
+  <option>Biofisica</option>
+  <option>Quimica</option>
+  <option>Analisis Matematico</option>
+  <option>Economia</option>
+  <option>Sociologia</option>
+</select></div>
+<div class="form-group">
+<label class="lead">Elegí el parcial: &nbsp;</label><select class="selectpicker">
+<option>Primero</option>
+<option>Segundo</option>
+<option>Recuperatorio</option>
+<option>Final</option>
+<option>Libre</option>
+</select>
+</div>
+<input type="submit" class="btn btn-default" value="Buscar">
+</form>
+  </div>
+</div>
+<div class="panel panel-info">
+  <div class="panel-heading">
+    <span id="colaborar"><h2 class="titulo panel-title">¿Cómo colaborar?</h2></span>
+  </div>
+  <div class="panel-body">
+    <p class="lead">¡Colaborar es muy simple! Podés hacerlo de las siguientes maneras:</p>
+					<ul class="lead">
+					<li class="lead">Podés enviarnos por mail a <b>lacamporacbc@gmail.com</b> el parcial o recuperatorio escaneado.</li>
+					<li class="lead">Podés acercarnos el parcial o recuperatorio a cualquiera de nuestras mesas y nosotros lo escaneamos.</li>
+					</ul>
+					<p class="lead">Un pequeño esfuerzo como este puede ser una enorme ayuda para otro. Entre todos podemos colaborar en la creación de una universidad más inclusiva y participativa.</p>
+  </div>
+</div>
+
+					
+					
+					
+                   
+					<div class="panel panel-primary">
+  <div class="panel-heading">
+     <span id="contacto"><h2 class="titulo panel-title">Contacto</h2></span>
+  </div>
+  <div class="panel-body">
+     <form class="lead">
+                      <div class="form-group">
+                      <input type="text" placeholder="Nombre" class="form-control">
+                    </div>
+
+                      <div class="form-group">
+                      <input type="text" placeholder="Mail" class="form-control">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" placeholder="Asunto" class="form-control">
+                    </div>
+                  <div class="form-group">
+                      <textarea class="form-control" placeholder="Mensaje"></textarea>
+                    </div>
+                      <input type="submit" class="btn btn-default" value="Enviar">
+
+                    </form>
+  </div>
+</div>
+                   
+                    </div>
+                </div>
             </div>
+				
         </div>
-        <!-- /.row -->
-        <hr>
-        <div class="row">
-          <div class="col-md-4 text-center">
-            <div class="well">
-            <i class="fa fa-graduation-cap icono-grande" style="color: #2980b9;"></i><hr class="hr-cortita">
-			<p class="lead">Para estudiantes secundarios, del CBC y UBA XXI.</p>
-          </div>
-          </div>
-          <div class="col-md-4 text-center">
-            <div class="well">
-            <i class="fa fa-group icono-grande" style="color: #6C7A89;"></i><hr class="hr-cortita">
-			<p class="lead">Clases grupales con descuentos.</p>
-          </div>
-          </div>
-          <div class="col-md-4 text-center">
-            <div class="well">
-            <i class="fa fa-thumbs-up icono-grande" style="color: #1abc9c;"></i><hr class="hr-cortita">
-			<p class="lead">Nuestro objetivo es que aprendas y entiendas los temas.</p>
-          </div>
-          </div>
-        </div>
-		<div class="row">
-          <div class="col-md-4 text-center">
-            <div class="well">
-            <i class="fa fa-child icono-grande" style="color: #8e44ad;"></i><hr class="hr-cortita">
-			<p class="lead">¡Aprobá! Te ayudamos a que pases todos tus exámenes.</p>
-          </div>
-          </div>
-          <div class="col-md-4 text-center">
-            <div class="well">
-            <i class="fa fa-file-pdf-o icono-grande" style="color: #e74c3c;"></i><hr class="hr-cortita">
-			<p class="lead">Parciales y resúmenes de todas las materias</p>
-          </div>
-          </div>
-          <div class="col-md-4 text-center">
-            <div class="well">
-            <i class="fa fa-money icono-grande" style="color: #2ecc71;"></i><hr class="hr-cortita">
-			<p class="lead">¡Precios económicos y promociones increíbles!</p>
-          </div>
-          </div>
-        </div>
+        <!-- /#page-content-wrapper -->
+
+		
+
 
     </div>
-    <!-- /.container -->
-	
-	<footer>
-      <div class="container text-center">
-	  <hr>
-        <p>&copy 2016</p>
-      </div>
-    </footer>
-	
-    <!-- jQuery Version 1.11.1 -->
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+	
+	<!-- Agrego el Smooth Scroll -->
+	<script src="js/smooth-scroll.js"></script>
+	
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+	
+	<!-- Y lo prendo -->
+	<script>
+    smoothScroll.init();
+	</script>
+
 
 </body>
 
