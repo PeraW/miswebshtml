@@ -1,3 +1,3 @@
-# Página web
+# mis queriditos projects
 
-Este repositorio es donde se encuentra hosteada la web. No tiene mucha ciencia, plain html.
+soy pobre a mucha honra bo'
